@@ -24,9 +24,13 @@ namespace XMLReceiver
                 IPEndPoint senderEP = new IPEndPoint(IPAddress.Any, 0);
                 Byte[] data = socket.Receive(ref senderEP);
 
-
+                //ASCII er en kodeform
                 String carXMLStr = Encoding.ASCII.GetString(data);
+
+                //ny instans a StringReader
                 StringReader sr = new StringReader(carXMLStr);
+
+                //Serialisering af Car objekt
                 XmlSerializer serializer = new XmlSerializer(typeof(Car));
                 Car incommingCar = (Car)serializer.Deserialize(sr);
 
