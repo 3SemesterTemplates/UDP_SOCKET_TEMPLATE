@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSender", "JsonSender\Js
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonReceiver", "JsonReceiver\JsonReceiver.csproj", "{21B2F040-2A26-4158-BE13-1BFD0A7B8DE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLReceiver", "XMLReceiver\XMLReceiver.csproj", "{90263B68-87FF-447F-A219-EDD7F7FCD340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSender", "XMLSender\XMLSender.csproj", "{85D8ECA6-968B-427A-A487-43D9448D62A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{21B2F040-2A26-4158-BE13-1BFD0A7B8DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B2F040-2A26-4158-BE13-1BFD0A7B8DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B2F040-2A26-4158-BE13-1BFD0A7B8DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90263B68-87FF-447F-A219-EDD7F7FCD340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90263B68-87FF-447F-A219-EDD7F7FCD340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90263B68-87FF-447F-A219-EDD7F7FCD340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90263B68-87FF-447F-A219-EDD7F7FCD340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D8ECA6-968B-427A-A487-43D9448D62A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D8ECA6-968B-427A-A487-43D9448D62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D8ECA6-968B-427A-A487-43D9448D62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D8ECA6-968B-427A-A487-43D9448D62A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
