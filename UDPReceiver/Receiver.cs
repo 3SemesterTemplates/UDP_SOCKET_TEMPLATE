@@ -5,6 +5,7 @@ using System.Text;
 
 namespace UDPReceiver
 {
+    //eksamen
     internal class Receiver
     {
         private int PORT;
